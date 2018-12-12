@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.76);
+        opacity: 0.68;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #bf3fa2;
+      }
+    </style>
+  </defs>
+  <g id="Video_play_button" data-name="Video play button" transform="translate(-1218 -808)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-1" cx="63" cy="63" r="63" transform="translate(1218 808)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-2" cx="47.333" cy="47.333" r="47.333" transform="translate(1234 824)"/>
+    <path id="Path_106" data-name="Path 106" class="cls-3" d="M734.5,1254.5l17.241,10.607L734.5,1275.38Z" transform="translate(538.5 -393.5)"/>
+  </g>
+</svg>
