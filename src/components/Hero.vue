@@ -48,13 +48,10 @@
       font-size: 2.5rem;
       font-weight: bold;
       color: #0F3553;
-
-      &:last-of-type {
-        margin-bottom: 1.5rem;
-      }
     }
 
     &-text {
+      margin-top: 1.5rem;
       margin-bottom: 2rem;
       font-size: 1.2rem;
       color: #0F3553;

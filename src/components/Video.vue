@@ -5,13 +5,13 @@
         <div class="col-md-6">
           <div class="video-content">
             <h5 class="video-title">
-              Together To
+              {{ title1 }}
             </h5>
             <h5 class="video-title">
-              Help The World Better!
+              {{ title2 }}
             </h5>
             <p class="video-text">
-              Please help us change lives around the world.
+              {{ text }}
             </p>
           </div>
         </div>
@@ -25,7 +25,34 @@
 
 <script>
   export default {
-    name: "Video"
+    name: "Video",
+    data() {
+      return {
+        title1: 'Together To',
+        title2: 'Help The World Better!',
+        text: 'Please help us change lives around the world.'
+      }
+    },
+
+    methods: {
+      createNewConsole() {
+        console.log('Created Console Video');
+      },
+
+      testCreate() {
+        console.log('new Created');
+      },
+
+      newCreateTest() {
+        console.log('New Create 2');
+      }
+    },
+
+    created() {
+      this.newCreateTest();
+      this.createNewConsole();
+      this.testCreate();
+    }
   }
 </script>
 
@@ -48,9 +75,15 @@
     &-player-btn {
       display: block;
       width: 126px;
-      margin-top: 25px;
+      margin-top: 10px;
       margin-left: auto;
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .video-player-btn {
+      margin-right: auto;
     }
   }
 </style>
