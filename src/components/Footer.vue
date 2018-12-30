@@ -16,39 +16,57 @@
       <div class="container">
         <h2 class="content-title">Childcare</h2>
         <address class="address">
-          <p class="address-item">9000 Regency Parkway, Suite 400 Cary, NC 27518</p>
-          <p class="address-item">E: mehedihas1994@gmail.com</p>
-          <p class="address-item">P: +880 1971502654</p>
+          <p class="address-item">Paupina, Fortaleza/CE - Brazil</p>
+          <p class="address-item">E: davi.p.m94@gmail.com</p>
+          <p class="address-item">P: 55+(85)98880-7304</p>
         </address>
       </div>
       <div class="container-fluid footer-info">
         <div class="row">
           <div class="col-md-6">
-            <small>Copyright © {{ getFullYear }} MehediHas. All Rights Reserved</small>
+            <small>
+              Copyright © {{ getFullYear }} Developed by Davi Pereira.
+              Design by Fulano
+              All Rights Reserved
+            </small>
           </div>
           <div class="col-md-6">
             <nav class="footer-nav">
               <ul class="footer-navbar">
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">HOME</a>
+                  <router-link to="/" class="footer-nav-link">
+                    HOME
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">OUR CAUSES</a>
+                  <router-link to="/" class="footer-nav-link">
+                    OUR CAUSES
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">SHOP</a>
+                  <router-link to="/" class="footer-nav-link">
+                    SHOP
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">PORTFOLIO</a>
+                  <router-link to="/" class="footer-nav-link">
+                    PORTFOLIO
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">BLOGS</a>
+                  <router-link to="/" class="footer-nav-link">
+                    BLOGS
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">PAGES</a>
+                  <router-link to="/" class="footer-nav-link">
+                    PAGES
+                  </router-link>
                 </li>
                 <li class="footer-nav-item">
-                  <a href="#" class="footer-nav-link">CONTACT</a>
+                  <router-link to="/" class="footer-nav-link">
+                    CONTACT
+                  </router-link>
                 </li>
               </ul>
             </nav>
@@ -133,7 +151,7 @@
   }
 
   .footer-nav-link {
-    display: block;
+    display: inline-block;
     font-size: .8rem;
     color: #4D4D4D;
   }

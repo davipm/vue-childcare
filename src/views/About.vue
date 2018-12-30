@@ -1,6 +1,9 @@
 <template>
-  <div class="about container">
-    <h1>This is an about page</h1>
+  <div class="about section">
+    <div class="container">
+      <!-- heading -->
+      <h2 class="title">This is an about page</h2>
+    </div>
   </div>
 </template>
 
@@ -11,5 +14,10 @@
 </script>
 
 <style scoped lang="scss">
-
+  .about {
+    position: relative;
+    display: block;
+    padding: 50px 0;
+    min-height: 50vh;
+  }
 </style>

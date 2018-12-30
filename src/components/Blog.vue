@@ -30,7 +30,9 @@
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -49,22 +51,24 @@
                 <span class="card-info-item">
                   Child
                 </span>
-                <a href="#" class="card-info-share">
+                <router-link to="/" class="card-info-share">
                   <img src="../assets/img/share.svg" class="share-icon" alt="">
-                </a>
+                </router-link>
               </div>
               <p class="card-text">
                 Contrary to popular belief, Lorem Ipsum is not simply
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="../assets/img/blog1.png" class="card-img-top" alt="">
+            <img src="../assets/img/blog1.png" class="card-img-top" alt="Blog Image">
             <div class="card-body">
               <h5 class="card-title">
                 The best<br>
@@ -77,23 +81,27 @@
                 <span class="card-info-item">
                   Child
                 </span>
-                <a href="#" class="card-info-share">
-                  <img src="../assets/img/share.svg" class="share-icon" alt="">
-                </a>
+                <router-link to="/" class="card-info-share">
+                  <img src="../assets/img/share.svg" class="share-icon" alt="Blog Image">
+                </router-link>
               </div>
               <p class="card-text">
                 Contrary to popular belief, Lorem Ipsum is not simply
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
       </div>
       <!-- btn centered -->
       <div class="btn-center">
-        <router-link to="/" class="btn btn-primary">View All</router-link>
+        <router-link to="/" class="btn btn-primary">
+          View All
+        </router-link>
       </div>
     </div>
   </div>

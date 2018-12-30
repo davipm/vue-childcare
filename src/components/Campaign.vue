@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-6 pr-lg-0">
           <div class="card">
-            <img src="../assets/img/soldier.png" class="card-img-top" alt="">
+            <img src="../assets/img/soldier.png" class="card-img-top" alt="Soldier Image">
             <div class="card-body shadow-sm">
               <div class="row">
                 <div class="col-md-4">

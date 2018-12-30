@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="../assets/img/woman-kid.svg" class="about-image" alt="">
+          <img src="../assets/img/woman-kid.svg" class="about-image" alt="Woman Kid">
         </div>
         <div class="col-md-6">
           <div class="about-content">
@@ -14,16 +14,16 @@
               typesetting industry. Lorem Ipsum has been the industry's
               standard dummy text ever since the 1500s,
             </p>
-            <a href="#" class="btn btn-primary">
+            <router-link to="/" class="btn btn-primary">
               Learn More
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
       <div class="row about-card-content">
         <div class="col-md-4 card-spacing">
           <div class="card">
-            <img src="../assets/img/heart.svg" class="card-img" alt="">
+            <img src="../assets/img/heart.svg" class="card-img" alt="Heart">
             <div class="card-body">
               <h5 class="card-title">
                 Send Donation
