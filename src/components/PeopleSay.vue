@@ -160,6 +160,12 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .carousel-item {
+      min-height: 388px;
+    }
+  }
+
   @media (max-width: 576px) {
     .carousel-item {
       min-height: 580px;
