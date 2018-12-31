@@ -91,4 +91,20 @@
     right: 20px;
     padding: 12px 60px;
   }
+
+  @media (max-width: 576px) {
+    .form-send {
+      display: block;
+    }
+
+    .btn-primary {
+      right: 0;
+      float: right;
+      margin-top: 15px;
+    }
+
+    .form-control {
+      width: 100%;
+    }
+  }
 </style>

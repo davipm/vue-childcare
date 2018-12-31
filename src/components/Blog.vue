@@ -8,7 +8,7 @@
       <div class="row blog-content">
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="../assets/img/blog1.png" class="card-img-top" alt="">
+            <img src="../assets/img/blog1.png" class="card-img-top" alt="Blog Image">
             <div class="card-body">
               <h5 class="card-title">
                 The best<br>
@@ -38,11 +38,11 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="../assets/img/blog1.png" class="card-img-top" alt="">
+            <img src="../assets/img/blog2.png" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">
-                The best<br>
-                apps to your next trip
+                Highlights But<br>
+                I must explain to you
               </h5>
               <div class="card-info">
                 <time class="card-info-item">
@@ -68,11 +68,11 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="../assets/img/blog1.png" class="card-img-top" alt="Blog Image">
+            <img src="../assets/img/blog3.png" class="card-img-top" alt="Blog Image">
             <div class="card-body">
               <h5 class="card-title">
-                The best<br>
-                apps to your next trip
+                On the<br>
+                other hand
               </h5>
               <div class="card-info">
                 <time class="card-info-item">

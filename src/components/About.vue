@@ -34,7 +34,9 @@
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -51,7 +53,9 @@
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -68,7 +72,9 @@
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <router-link to="/" class="btn btn-primary">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>

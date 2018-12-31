@@ -59,7 +59,8 @@
                 World Green
               </h3>
               <h5 class="number-subtitle">
-                Contrary to popular belief, Lorem Ipsum is not<br> simply random text.
+                Contrary to popular belief, Lorem Ipsum is not<br>
+                simply random text.
               </h5>
             </div>
           </div>
@@ -71,7 +72,8 @@
                 A New Church
               </h3>
               <h5 class="number-subtitle">
-                Contrary to popular belief, Lorem Ipsum is not<br> simply random text.
+                Contrary to popular belief, Lorem Ipsum is not<br>
+                simply random text.
               </h5>
             </div>
           </div>

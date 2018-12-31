@@ -12,7 +12,7 @@
             <ul class="header-list">
               <li class="header-item">
                 <span><img src="../assets/img/phone-call.svg" class="icon-header" alt=""></span>
-                +880 1971 502654
+                +55(85)98880-7304
               </li>
               <li class="header-item">
                 <span><img src="../assets/img/mail.svg" class="icon-header" alt=""></span>

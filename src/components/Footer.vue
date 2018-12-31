@@ -24,9 +24,8 @@
       <div class="container-fluid footer-info">
         <div class="row">
           <div class="col-md-6">
-            <small>
+            <small class="copyright">
               Copyright © {{ getFullYear }} Developed by Davi Pereira.
-              Design by Fulano
               All Rights Reserved
             </small>
           </div>
@@ -154,5 +153,15 @@
     display: inline-block;
     font-size: .8rem;
     color: #4D4D4D;
+  }
+
+  @media (max-width: 576px) {
+    .footer-nav {
+      display: none;
+    }
+
+    .copyright {
+      padding-bottom: 10px;
+    }
   }
 </style>

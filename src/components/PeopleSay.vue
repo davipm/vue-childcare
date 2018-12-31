@@ -6,7 +6,7 @@
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
               <div class="people-description">
                 <img src="../assets/img/person1.png" class="people-img" alt="">
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
               <div class="people-description">
                 <img src="../assets/img/person2.png" class="people-img" alt="">
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
               <div class="people-description">
                 <img src="../assets/img/person3.png" class="people-img" alt="">
@@ -157,6 +157,12 @@
     &::after {
       top: 70px;
       left: 40px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item {
+      min-height: 580px;
     }
   }
 </style>
