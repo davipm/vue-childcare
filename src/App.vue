@@ -6,18 +6,22 @@
     <router-view/>
     <!-- footer -->
     <Footer />
+    <!-- back to top button -->
+    <BackToTop />
   </main>
 </template>
 
 <script>
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
+  import BackToTop from './components/BackToTop.vue'
 
   export default {
     name: "App",
     components: {
       Header,
-      Footer
+      Footer,
+      BackToTop
     },
   }
 </script>
