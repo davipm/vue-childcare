@@ -1,5 +1,14 @@
 <template>
   <div class="section video">
+    <!-- the modal -->
+    <transition name="modal-animation">
+      <div class="modal-video" v-if="showModal">
+        <div class="modal-container">
+
+        </div>
+      </div>
+    </transition>
+
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -16,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="../assets/img/btn.svg" class="video-player-btn" alt="Video Player">
+          <img src="../assets/img/btn.svg" v-b-modal="'myModal'" class="video-player-btn" alt="Video Player">
         </div>
       </div>
     </div>
@@ -26,32 +35,21 @@
 <script>
   export default {
     name: "Video",
+    components: {
+
+    },
+
     data() {
       return {
         title1: 'Together To',
         title2: 'Help The World Better!',
-        text: 'Please help us change lives around the world.'
+        text: 'Please help us change lives around the world.',
+        showModal: false
       }
     },
 
     methods: {
-      createNewConsole() {
-        console.log('Created Console Video');
-      },
 
-      testCreate() {
-        console.log('new Created');
-      },
-
-      newCreateTest() {
-        console.log('New Create 2');
-      }
-    },
-
-    created() {
-      this.newCreateTest();
-      this.createNewConsole();
-      this.testCreate();
     }
   }
 </script>
@@ -79,6 +77,28 @@
       margin-left: auto;
       cursor: pointer;
     }
+  }
+
+  .modal-video {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 100;
+  }
+
+  .modal-container {
+    position: relative;
+    display: block;
+    top: 10%;
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color: #FFF;
+    border-radius: 6px;
+    opacity: 1;
   }
 
   @media (max-width: 576px) {

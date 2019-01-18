@@ -1,13 +1,13 @@
 <template>
   <main id="app">
     <!-- header -->
-    <Header />
+    <Header/>
     <!-- render content -->
     <router-view/>
     <!-- footer -->
-    <Footer />
+    <Footer/>
     <!-- back to top button -->
-    <BackToTop />
+    <BackToTop/>
   </main>
 </template>
 

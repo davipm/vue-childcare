@@ -93,7 +93,7 @@
       color: #ffffff;
       text-align: center;
       line-height: 30px;
-      background-color: #00734A;
+      background-image: linear-gradient(-90deg, #B539A8, #F4627C);
       border-radius: 3px;
       opacity: .6;
 
@@ -111,5 +111,20 @@
         opacity: 1;
       }
     }
+  }
+
+  .fas {
+    border: solid #FFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .fa-chevron-up {
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
   }
 </style>
