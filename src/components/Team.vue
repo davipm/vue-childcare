@@ -14,7 +14,7 @@
               literature from 45 BC,
             </p>
           </div>
-          <form class="form-send">
+          <form class="form-send" @submit="onSendEmail">
             <div class="form-group mb-2">
               <label for="staticEmail2" class="sr-only">
                 Email
@@ -23,10 +23,12 @@
                      class="form-control"
                      id="staticEmail2"
                      placeholder="your email"
+                     v-model="email"
               >
             </div>
             <button type="submit" class="btn btn-primary">Send</button>
           </form>
+          <p v-if="isSend"><em>Obrigado Pelo seu email</em></p>
         </div>
         <div class="col-md-6">
           <img src="../assets/img/team.svg" class="w-100" alt="Team img">
@@ -38,7 +40,21 @@
 
 <script>
   export default {
-    name: "Team"
+    name: "Team",
+    data() {
+      return {
+        email: '',
+        isSend: null,
+      }
+    },
+
+    methods: {
+      onSendEmail(e) {
+        e.preventDefault();
+        this.isSend = true;
+        alert(JSON.stringify(this.email));
+      }
+    }
   }
 </script>
 

@@ -20,7 +20,7 @@
   export default {
     name: "BackToTop",
     props: {
-      visibleoffset: {
+      visibleOffset: {
         type: [String, Number],
         default: 200
       },
@@ -59,7 +59,7 @@
 
     methods: {
       catchScroll() {
-        this.visible = (window.pageYOffset > parseInt(this.visibleoffset))
+        this.visible = (window.pageYOffset > parseInt(this.visibleOffset))
       },
 
       backToTop() {
